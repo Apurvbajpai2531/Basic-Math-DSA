@@ -1,0 +1,83 @@
+﻿				**Basic Math for DSA**
+
+//Count Digit 
+
+    int i=0;
+    int last;
+    
+    while(n>0){
+     last=n%10;
+    i=i+1;
+    n=n/10;
+    
+    }
+    System.out.println("The digits are"+i);
+
+
+
+//Reverse of Digit
+rev=0;
+last;
+
+while(n>0);{
+	last=n%10
+	n=n/10
+	rev=rev*10+last
+}
+
+
+
+//Palindrome 
+
+A number which will be reversing given itself same as original 
+
+d=n
+rev=0;
+last;
+
+while(n>0);{
+	last=n%10
+	n=n/10
+	rev=rev*10+last
+}
+
+
+if(d==rev)            //n==rev this is ok but not working in case at last n will                           
+				0 so we need to store them in any variable
+print "Palindrome"
+
+else
+print "Not Palindrome"
+
+
+
+
+// Armstrong Number 
+
+Number raised to power itself how manty times occuirng and sum is what actually they are 
+
+	
+	sum=0	
+  	last;
+    	d=n
+    	while(n>0){
+     	last=n%10;
+    	sum=sum+(last*last*last)
+    	n=n/10;
+
+if(sum==d)
+Print "Armstrong"
+else 
+Print "Not Armstrong"
+
+
+
+//Print all divisor 
+
+
+for(i=1;i<=n;i++)
+if(n%i==0)
+print(i+" ")
+}
+i++;
+
