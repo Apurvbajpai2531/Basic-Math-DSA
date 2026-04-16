@@ -81,3 +81,30 @@ print(i+" ")
 }
 i++;
 
+
+
+//Prime Number (√n)
+if (n <= 1) return false;
+
+for (int i = 2; i * i <= n; i++) {
+    if (n % i == 0) {
+        return false;
+    }
+}
+
+return true;
+
+
+//GCD (Euclidean Algorithm)
+while (a > 0 && b > 0) {
+    if (a > b)
+        a = a % b;
+    else
+        b = b % a;
+}
+
+if (a == 0)
+    return b;
+else
+    return a;
+
